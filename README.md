@@ -2,6 +2,8 @@
 
 This repository contains the Verilog implementation of a MIPS processor based on a multicycle architecture. The processor executes MIPS instructions over multiple clock cycles, dividing tasks like instruction fetch, decode, execution, memory access, and write-back into distinct phases. This design approach optimizes resource usage by reusing hardware components across cycles.
 
+![Processor Architecture](assets/processor_architecture.png "MIPS Multicycle Processor Architecture")
+
 ## Features
 - **Multicycle Architecture**:
   - Executes instructions across multiple clock cycles for efficient resource utilization.
